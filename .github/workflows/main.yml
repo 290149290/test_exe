@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          start 1.exe
+          # start 1.exe
 
       - name: commit
           run: |
