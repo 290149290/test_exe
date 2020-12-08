@@ -34,14 +34,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          # start 1.exe
+          start 1.exe
 
       - name: commit
-          run: |
-            git config --global user.email 290149290@qq.com
-            git config --global user.name 290149290
-            git add .
-            git commit -m "update" -a || exit 0
+        run: |
+          git config --global user.email 290149290@qq.com
+          git config --global user.name 290149290
+          git add .
+          git commit -m "update" -a || exit 0
 
       - name: Push changes
         uses: ad-m/github-push-action@master
